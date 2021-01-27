@@ -11,8 +11,8 @@ import Button from 'react-bootstrap/Button';
 const Product = () => {
     return (
         <div className='ml-4'>
-            <h2 className='mb-4'>The law is a powerful tool. Learn to use it.</h2>
-            <h3 className='text-secondary mb-3'>[Product Name]</h3>
+            <h2 className='mb-5'>The law is a powerful tool. Learn to use it.</h2>
+            <h3 className='text-secondary mb-4'>[Product Name]</h3>
             <Container className='ml-0 pl-0 mb-1'>
                 <Row>
                     <Col className='mr-5 mb-4'>
