@@ -7,7 +7,7 @@ import Nav from 'react-bootstrap/Nav';
  */
 const Navigation = () => {
     return (
-        <Navbar className='bg-primary mb-3'>
+        <Navbar className='bg-primary mb-2 pl-4'>
             <Navbar.Brand className='text-white font-italic'><h1>LAW+</h1></Navbar.Brand>
             <Nav>
                 <Nav.Link className='text-white'>Product</Nav.Link>

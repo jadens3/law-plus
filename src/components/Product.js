@@ -10,22 +10,35 @@ import Button from 'react-bootstrap/Button';
  */
 const Product = () => {
     return (
-        <div className='m-3'>
-            <h2 className="text-secondary mb-3">Product</h2>
-            <h2 className='mb-3'>The law is a powerful tool. Learn to use it.</h2>
-            <h3 className='mb-1'>[Product Name]</h3>
-            <Container className='mt-3 ml-0 pl-0 mb-3'>
+        <div className='ml-4'>
+            <h2 className='mb-4'>The law is a powerful tool. Learn to use it.</h2>
+            <h3 className='text-secondary mb-3'>[Product Name]</h3>
+            <Container className='ml-0 pl-0 mb-1'>
                 <Row>
-                    <Col>
-                        <p>[Product description]</p>
+                    <Col className='mr-5 mb-4'>
+                        <Carousel>
+                            <Carousel.Item>
+                                <img
+                                    src='http://via.placeholder.com/800x450'
+                                    alt='first slide'
+                                />
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img
+                                    src='http://via.placeholder.com/800x450'
+                                    alt='second slide'
+                                />
+                            </Carousel.Item>
+                        </Carousel>
+                        <p className='mt-4'>[Product description]</p>
                     </Col>
-                    <Col>
-                        <h5 className='mb-1'>Product Specifications</h5>
+                    <Col className='mb-4'>
+                        <h5 className='mb-1'>[Product Specifications]</h5>
                         <ul className='pl-3'>
-                            <li>Dimensions</li>
-                            <li>Material</li>
-                            <li>Packaging</li>
-                            <li>shipping/Other</li>
+                            <li>[Dimensions]</li>
+                            <li>[Material]</li>
+                            <li>[Packaging]</li>
+                            <li>[Shipping/Other]</li>
                         </ul>
                         <Button className="bg-primary mt-2">Shop Now</Button>
                     </Col>
