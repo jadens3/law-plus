@@ -34,12 +34,13 @@ const Product = () => {
                     </Col>
                     <Col className='mb-4'>
                         <h5 className='mb-1'>[Product Specifications]</h5>
-                        <ul className='pl-3'>
+                        <ul className='pl-3 mb-3'>
                             <li>[Dimensions]</li>
                             <li>[Material]</li>
                             <li>[Packaging]</li>
                             <li>[Shipping/Other]</li>
                         </ul>
+                        <p className='font-weight-bold'>Price: [TBD]</p>
                         <Button className="bg-primary mt-2">Shop Now</Button>
                     </Col>
                 </Row>
