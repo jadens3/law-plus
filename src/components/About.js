@@ -8,7 +8,7 @@ import Row from 'react-bootstrap/Row';
  */
 const About = () => {
     return (
-        <div className='ml-4 mb-5'>
+        <div id='about' className='ml-4 mb-5'>
             <h2 className="text-secondary mb-3">About</h2>
             <h3 className='mb-4'>Story</h3>
             <p className='mb-5'>[Text here]</p>
