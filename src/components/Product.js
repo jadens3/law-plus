@@ -4,6 +4,7 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Carousel from 'react-bootstrap/Carousel';
 import Button from 'react-bootstrap/Button';
+import { HashLink as Link }from 'react-router-hash-link';
 
 /**
  * @returns {React.Component} represents the product section
@@ -14,7 +15,7 @@ const Product = () => {
             <h2 className='mb-5'>The law is a powerful tool. Learn to use it.</h2>
             <div id='product'>
                 <h3 className='text-secondary mb-4'>[Product Name]</h3>
-                <Container className='ml-0 pl-0 mb-1'>
+                <Container className='ml-0 pl-0 mb-3'>
                     <Row>
                         <Col className='mr-5 mb-4'>
                             <Carousel>
@@ -42,7 +43,11 @@ const Product = () => {
                                 <li>[Shipping/Other]</li>
                             </ul>
                             <p className='font-weight-bold'>Price: [TBD]</p>
-                            <Button className="bg-primary mt-2">Shop Now</Button>
+                            <Button className="bg-primary mt-2">
+                                <Link smooth to='#shop' className='text-white' style={{ textDecoration: 'none' }}>
+                                    Shop Now
+                                </Link>
+                            </Button>
                         </Col>
                     </Row>
                 </Container>
