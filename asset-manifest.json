@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/law-plus/static/css/main.88c6f953.chunk.css",
-    "main.js": "/law-plus/static/js/main.635d1279.chunk.js",
-    "main.js.map": "/law-plus/static/js/main.635d1279.chunk.js.map",
+    "main.js": "/law-plus/static/js/main.88fc0c39.chunk.js",
+    "main.js.map": "/law-plus/static/js/main.88fc0c39.chunk.js.map",
     "runtime-main.js": "/law-plus/static/js/runtime-main.1cd41bc2.js",
     "runtime-main.js.map": "/law-plus/static/js/runtime-main.1cd41bc2.js.map",
-    "static/js/2.d68f622a.chunk.js": "/law-plus/static/js/2.d68f622a.chunk.js",
-    "static/js/2.d68f622a.chunk.js.map": "/law-plus/static/js/2.d68f622a.chunk.js.map",
+    "static/js/2.5b4e9203.chunk.js": "/law-plus/static/js/2.5b4e9203.chunk.js",
+    "static/js/2.5b4e9203.chunk.js.map": "/law-plus/static/js/2.5b4e9203.chunk.js.map",
     "static/js/3.de3d89e6.chunk.js": "/law-plus/static/js/3.de3d89e6.chunk.js",
     "static/js/3.de3d89e6.chunk.js.map": "/law-plus/static/js/3.de3d89e6.chunk.js.map",
     "index.html": "/law-plus/index.html",
     "static/css/main.88c6f953.chunk.css.map": "/law-plus/static/css/main.88c6f953.chunk.css.map",
-    "static/js/2.d68f622a.chunk.js.LICENSE.txt": "/law-plus/static/js/2.d68f622a.chunk.js.LICENSE.txt"
+    "static/js/2.5b4e9203.chunk.js.LICENSE.txt": "/law-plus/static/js/2.5b4e9203.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.1cd41bc2.js",
-    "static/js/2.d68f622a.chunk.js",
+    "static/js/2.5b4e9203.chunk.js",
     "static/css/main.88c6f953.chunk.css",
-    "static/js/main.635d1279.chunk.js"
+    "static/js/main.88fc0c39.chunk.js"
   ]
 }
