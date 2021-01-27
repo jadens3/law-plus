@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/law-plus/static/css/main.88c6f953.chunk.css",
-    "main.js": "/law-plus/static/js/main.dea255e0.chunk.js",
-    "main.js.map": "/law-plus/static/js/main.dea255e0.chunk.js.map",
+    "main.js": "/law-plus/static/js/main.2f656937.chunk.js",
+    "main.js.map": "/law-plus/static/js/main.2f656937.chunk.js.map",
     "runtime-main.js": "/law-plus/static/js/runtime-main.67dc444b.js",
     "runtime-main.js.map": "/law-plus/static/js/runtime-main.67dc444b.js.map",
     "static/js/2.63339b1f.chunk.js": "/law-plus/static/js/2.63339b1f.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.67dc444b.js",
     "static/js/2.63339b1f.chunk.js",
     "static/css/main.88c6f953.chunk.css",
-    "static/js/main.dea255e0.chunk.js"
+    "static/js/main.2f656937.chunk.js"
   ]
 }
