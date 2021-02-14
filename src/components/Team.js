@@ -14,41 +14,41 @@ const Team = () => {
             <Container className='ml-5 pl-0 mb-5'>
                 <Row className='mw-75'>
                     <Col className='text-center'>
-                        <div className='headshot-container mb-2'>
+                        <div className='headshot-container m-auto'>
                             <img
                                 src='https://i.ibb.co/2dBCQ9k/danica-headshot.jpg'
                                 alt='danica-headshot'
                             />
                         </div>
-                        <h5 className='text-secondary'>Danica Gheorghiu</h5>
+                        <h5 className='text-secondary mt-2'>Danica Gheorghiu</h5>
                     </Col>
                     <Col className='text-center'>
-                        <div className='headshot-container mb-2'>
+                        <div className='headshot-container m-auto'>
                             <img
                                 src='https://i.ibb.co/2NzxcWM/flower-headshot.jpg'
                                 alt='flower-headshot'
                             />
                         </div>
-                        <h5 className='text-secondary'>Flower Hua</h5>  
+                        <h5 className='text-secondary mt-2'>Flower Hua</h5>  
                     </Col>
                     <Col className='text-center'>
-                        <div className='headshot-container mb-2'>
+                        <div className='headshot-container m-auto'>
                             <img
                                 src='https://i.ibb.co/tptBXHx/sage-headshot.png'
                                 alt='sage-headshot'
                             />
                         </div>
-                        <h5 className='text-secondary'>Sage Quiggle</h5> 
+                        <h5 className='text-secondary mt-2'>Sage Quiggle</h5> 
                     </Col>
                     <Col className='text-center'>
-                        <div className='headshot-container mb-2'>
+                        <div className='headshot-container m-auto'>
                             <img
                                 className='mb-2'
                                 src='https://i.ibb.co/bB8k2ks/jaden-headshot.jpg'
                                 alt='jaden-headshot'
                             />
                         </div>
-                        <h5 className='text-secondary'>Jaden Stetler</h5>  
+                        <h5 className='text-secondary mt-2'>Jaden Stetler</h5>  
                     </Col>
                 </Row>
             </Container>
