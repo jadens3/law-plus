@@ -20,7 +20,7 @@ const Team = () => {
                                 alt='danica-headshot'
                             />
                         </div>
-                        <h5 className='text-secondary mt-2'>Danica Gheorghiu</h5>
+                        <h5 className='text-secondary mt-2 mb-4'>Danica Gheorghiu</h5>
                     </Col>
                     <Col className='text-center'>
                         <div className='headshot-container m-auto'>
@@ -29,7 +29,7 @@ const Team = () => {
                                 alt='flower-headshot'
                             />
                         </div>
-                        <h5 className='text-secondary mt-2'>Flower Hua</h5>  
+                        <h5 className='text-secondary mt-2 mb-4'>Flower Hua</h5>  
                     </Col>
                     <Col className='text-center'>
                         <div className='headshot-container m-auto'>
@@ -38,7 +38,7 @@ const Team = () => {
                                 alt='sage-headshot'
                             />
                         </div>
-                        <h5 className='text-secondary mt-2'>Sage Quiggle</h5> 
+                        <h5 className='text-secondary mt-2 mb-4'>Sage Quiggle</h5> 
                     </Col>
                     <Col className='text-center'>
                         <div className='headshot-container m-auto'>
@@ -48,7 +48,7 @@ const Team = () => {
                                 alt='jaden-headshot'
                             />
                         </div>
-                        <h5 className='text-secondary mt-2'>Jaden Stetler</h5>  
+                        <h5 className='text-secondary mt-2 mb-4'>Jaden Stetler</h5>  
                     </Col>
                 </Row>
             </Container>
