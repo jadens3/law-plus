@@ -22,7 +22,7 @@ const Home = () => {
                             </div>
                         </div>
                     </Col>
-                    <Col className='mb-5'>
+                    <Col lg className='mb-5'>
                         <Carousel>
                             <Carousel.Item>
                                 <img

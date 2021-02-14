@@ -14,7 +14,7 @@ const Products = () => {
         <div className='ml-5' id='products'>
             <Container className='ml-0 pl-0'>
                 <Row>
-                    <Col className='mr-5 mb-5'>
+                    <Col lg className='mr-5 mb-5'>
                         <iframe
                             id='50869b46-c851-4212-bede-7faff8f07d15'
                             src='https://www.vectary.com/viewer/v1/?model=50869b46-c851-4212-bede-7faff8f07d15&env=monkforest'
@@ -46,7 +46,7 @@ const Products = () => {
                             </div>
                         </div>
                     </Col>
-                    <Col className='mr-5 mb-5'>
+                    <Col lg className='mr-5 mb-5'>
                         <img
                             src='http://via.placeholder.com/800x450'
                             alt='first slide'
