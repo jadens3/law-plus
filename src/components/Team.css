@@ -1,0 +1,9 @@
+.headshot-container {
+    width: 240px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.headshot-container img {
+    width: 100%;
+}

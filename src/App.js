@@ -1,17 +1,17 @@
 import './App.scss';
 import Navigation from './components/Navigation.js';
-import Product from './components/Product.js';
-import About from './components/About.js';
-import Shop from './components/Shop.js';
+import Home from './components/Home.js';
+import Products from './components/Products.js';
+import Team from './components/Team.js';
 import { BrowserRouter } from 'react-router-dom';
 
 function App() {
   return (
     <BrowserRouter>
       <Navigation/>
-      <Product id='product'/>
-      <About id='about'/>
-      <Shop/>
+      <Home/>
+      <Products/>
+      <Team/>
     </BrowserRouter>
   );
 }
