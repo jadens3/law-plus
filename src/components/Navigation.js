@@ -25,6 +25,9 @@ const Navigation = () => {
                 <Nav.Item>
                     <Nav.Link href='#team'>Team</Nav.Link>
                 </Nav.Item>
+                <Nav.Item>
+                    <Nav.Link href='#order'>Order</Nav.Link>
+                </Nav.Item>
             </Nav>
         </Navbar>
     );

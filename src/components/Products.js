@@ -29,7 +29,14 @@ const Products = () => {
                             <div className='col-sm-12 my-auto'>
                                 <h2 className='text-secondary mb-3'>Flashcards</h2>
                                 <p className='mb-4'>Our flashcard set contains prompts based on common scenarios related to exercising your legal rights and digestible explanations of the rights you have. Scenario categories include being pulled over, entering a lease agreement, and being involved in a traffic accident.</p>
-                                <Button className='bg-primary'>Preorder Now</Button>
+                                <Button
+                                className='bg-primary'
+                                href='https://docs.google.com/forms/d/e/1FAIpQLScOfyM0ssCYDI-njalU0_zm6UFQwnY9FX4-waMw1xKsSLfuaw/viewform?usp=sf_link'
+                                target='_blank'
+                                rel='noopener noreferrer'
+                                >
+                                    Preorder Now
+                                </Button>
                             </div>
                         </div>
                     </Col>
@@ -42,7 +49,14 @@ const Products = () => {
                             <div className='col-sm-12 my-auto'>
                                 <h2 className='text-secondary mb-3'>Lawyer Sawyer Goes to the Supreme Court</h2>
                                 <p className='mb-4'>Our illustrated youth book introduces young readers to the Supreme Court and Bill of Rights. Explanations are delivered through the book’s main character and namesake, Lawyer Sawyer.</p>
-                                <Button className='bg-primary'>Preorder Now</Button>
+                                <Button
+                                className='bg-primary'
+                                href='https://docs.google.com/forms/d/e/1FAIpQLScOfyM0ssCYDI-njalU0_zm6UFQwnY9FX4-waMw1xKsSLfuaw/viewform?usp=sf_link'
+                                target='_blank'
+                                rel='noopener noreferrer'
+                                >
+                                    Preorder Now
+                                </Button>
                             </div>
                         </div>
                     </Col>
