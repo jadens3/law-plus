@@ -23,22 +23,22 @@ const Home = () => {
                         </div>
                     </Col>
                     <Col lg className='mb-5'>
+                        {/*
                         <Carousel>
                             <Carousel.Item>
                                 <img
-                                    src='http://via.placeholder.com/800x450'
+                                    src='https://i.ibb.co/cb2vd5L/preordernow.jpg'
                                     alt='first slide'
                                     className='d-block w-100'
                                 />
                             </Carousel.Item>
-                            <Carousel.Item>
-                                <img
-                                    src='http://via.placeholder.com/800x450'
-                                    alt='second slide'
-                                    className='d-block w-100'
-                                />
-                            </Carousel.Item>
                         </Carousel>
+                        */}
+                        <img
+                            src='https://i.ibb.co/cb2vd5L/preordernow.jpg'
+                            alt='preorder now'
+                            className='d-block w-100'
+                        />
                     </Col>
                 </Row>
             </Container>

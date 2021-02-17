@@ -13,16 +13,13 @@ const Products = () => {
     return (
         <div className='ml-5' id='products'>
             <Container className='ml-0 pl-0'>
-                <Row>
+                <Row className='pt-5'>
                     <Col lg className='mr-5 mb-5'>
-                        <iframe
-                            id='50869b46-c851-4212-bede-7faff8f07d15'
-                            src='https://www.vectary.com/viewer/v1/?model=50869b46-c851-4212-bede-7faff8f07d15&env=monkforest'
-                            frameborder='0'
-                            width='100%'
-                            height='480'
-                            title='card'>
-                        </iframe>
+                    <img
+                        src='https://i.ibb.co/QMtshQk/cards.jpg'
+                        alt='cards'
+                        className='d-block w-100'
+                    />
                     </Col>
                     <Col className='mr-5 mb-5'>
                         <div className='row h-100'>
@@ -43,7 +40,7 @@ const Products = () => {
                 </Row>
             </Container>
             <Container className='ml-0 pl-0'>
-                <Row>
+                <Row className='pt-5'>
                     <Col className='mr-5 mb-5'>
                         <div className='row h-100'>
                             <div className='col-sm-12 my-auto'>
@@ -62,8 +59,8 @@ const Products = () => {
                     </Col>
                     <Col lg className='mr-5 mb-5'>
                         <img
-                            src='http://via.placeholder.com/800x450'
-                            alt='first slide'
+                            src='https://i.ibb.co/ByMZ68t/book.jpg'
+                            alt='book'
                             className='d-block w-100'
                         />
                     </Col>

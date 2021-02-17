@@ -9,8 +9,8 @@ import './Team.css';
  */
 const Team = () => {
     return (
-        <div id='team'>
-            <h2 className='text-secondary mb-4 ml-5'>Team</h2>
+        <div id='team' className='mt-5'>
+            <h2 className='text-secondary mb-5 ml-5'>Team</h2>
             <Container className='ml-5 pl-0 mb-5'>
                 <Row className='mw-75'>
                     <Col className='text-center'>
@@ -20,7 +20,7 @@ const Team = () => {
                                 alt='danica-headshot'
                             />
                         </div>
-                        <h5 className='text-secondary mt-2 mb-4'>Danica Gheorghiu</h5>
+                        <h5 className='text-secondary mt-2 mb-4'>Danica Gheorghiu - CMO</h5>
                     </Col>
                     <Col className='text-center'>
                         <div className='headshot-container m-auto'>
@@ -29,7 +29,7 @@ const Team = () => {
                                 alt='flower-headshot'
                             />
                         </div>
-                        <h5 className='text-secondary mt-2 mb-4'>Flower Hua</h5>  
+                        <h5 className='text-secondary mt-2 mb-4'>Flower Hua - CEO</h5>  
                     </Col>
                     <Col className='text-center'>
                         <div className='headshot-container m-auto'>
@@ -38,7 +38,7 @@ const Team = () => {
                                 alt='sage-headshot'
                             />
                         </div>
-                        <h5 className='text-secondary mt-2 mb-4'>Sage Quiggle</h5> 
+                        <h5 className='text-secondary mt-2 mb-4'>Sage Quiggle - CFO</h5> 
                     </Col>
                     <Col className='text-center'>
                         <div className='headshot-container m-auto'>
@@ -48,10 +48,19 @@ const Team = () => {
                                 alt='jaden-headshot'
                             />
                         </div>
-                        <h5 className='text-secondary mt-2 mb-4'>Jaden Stetler</h5>  
+                        <h5 className='text-secondary mt-2 mb-4'>Jaden Stetler - CTO</h5>  
                     </Col>
                 </Row>
             </Container>
+            <h5 className='ml-5 mb-5 text-secondary'>
+                Questions, concerns, or feedback? <a
+                href='https://docs.google.com/forms/d/e/1FAIpQLSfkdjLp_paAnx70uw6F7xvGzCmLW5_FWesU4s0NOvRsALpeIQ/viewform?usp=sf_link'
+                target='_blank'
+                rel='noopener noreferrer'
+                >
+                     Contact us here
+                </a>
+            </h5>
         </div>
     )
 }
