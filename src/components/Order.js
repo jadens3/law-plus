@@ -12,9 +12,9 @@ const Order = () => {
                 src="https://docs.google.com/forms/d/e/1FAIpQLScOfyM0ssCYDI-njalU0_zm6UFQwnY9FX4-waMw1xKsSLfuaw/viewform?embedded=true"
                 width="640"
                 height="1534"
-                frameborder="0"
-                marginheight="0"
-                marginwidth="0">
+                frameBorder="0"
+                marginHeight="0"
+                marginWidth="0">
                     Loading…
             </iframe>
         </div>
