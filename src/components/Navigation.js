@@ -9,26 +9,29 @@ import './Navigation.css';
  // TODO: Make mobile-friendly dropdown
 const Navigation = () => {
     return (
-        <Navbar className='bg-primary mb-5' variant='dark'>
+        <Navbar expand='lg' className='bg-primary mb-5' variant='dark'>
             <Navbar.Brand href='#home'>
             <div className='logo-container'>
                     <img src="https://i.ibb.co/wNtwVV4/logo.png" alt="logo" border="0"/>
             </div>
             </Navbar.Brand>
-            <Nav className='mr-auto'>
-                <Nav.Item>
-                    <Nav.Link href='#home'>Home</Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                    <Nav.Link href='#products'>Products</Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                    <Nav.Link href='#team'>Team</Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                    <Nav.Link href='#order'>Order</Nav.Link>
-                </Nav.Item>
-            </Nav>
+            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+            <Navbar.Collapse id="responsive-navbar-nav">
+                <Nav className='mr-auto'>
+                    <Nav.Item>
+                        <Nav.Link href='#home'>Home</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                        <Nav.Link href='#products'>Products</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                        <Nav.Link href='#team'>Team</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                        <Nav.Link href='#order'>Order</Nav.Link>
+                    </Nav.Item>
+                </Nav>
+            </Navbar.Collapse>
         </Navbar>
     );
 }
