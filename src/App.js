@@ -7,6 +7,15 @@ import Order from './components/Order.js';
 import Footer from './components/Footer.js';
 import { BrowserRouter } from 'react-router-dom';
 
+/*
+TODO:
+Change Profile Picture
+Add Bios
+
+Add Product Pictures
+Add Amazon link
+Change contact form
+*/
 function App() {
   return (
     <BrowserRouter>

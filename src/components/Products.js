@@ -11,9 +11,9 @@ import Button from 'react-bootstrap/Button';
 // Maybe make law is powerful tool 2 columns
 const Products = () => {
     return (
-        <div className='ml-5' id='products'>
-            <Container className='ml-0 pl-0'>
-                <Row className='pt-5'>
+        <div className='m-5' id='products'>
+            <Container fluid className='pb-5'>
+                <Row>
                     <Col lg className='mr-5 mb-5'>
                     <img
                         src='https://i.ibb.co/QMtshQk/cards.jpg'
@@ -39,7 +39,7 @@ const Products = () => {
                     </Col>
                 </Row>
             </Container>
-            <Container className='ml-0 pl-0'>
+            <Container fluid className='pb-5'>
                 <Row className='pt-5'>
                     <Col className='mr-5 mb-5'>
                         <div className='row h-100'>

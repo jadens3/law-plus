@@ -9,10 +9,10 @@ import './Team.css';
  */
 const Team = () => {
     return (
-        <div id='team' className='mt-5'>
-            <h2 className='text-secondary mb-5 ml-5'>Team</h2>
-            <Container className='ml-5 pl-0 mb-5'>
-                <Row className='mw-75'>
+        <div id='team' className='m-5'>
+            <Container fluid>
+            <h2 className='text-secondary mb-5'>Team</h2>
+                <Row className='mw-75 pb-5'>
                     <Col className='text-center'>
                         <div className='headshot-container m-auto'>
                             <img
@@ -51,16 +51,16 @@ const Team = () => {
                         <h5 className='text-secondary mt-2 mb-4'>Jaden Stetler - CTO</h5>  
                     </Col>
                 </Row>
+                <h5 className='mb-5 text-secondary'>
+                    Questions, concerns, or feedback? <a
+                    href='https://docs.google.com/forms/d/e/1FAIpQLSfkdjLp_paAnx70uw6F7xvGzCmLW5_FWesU4s0NOvRsALpeIQ/viewform?usp=sf_link'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    >
+                        Contact us here
+                    </a>
+                </h5>
             </Container>
-            <h5 className='ml-5 mb-5 text-secondary'>
-                Questions, concerns, or feedback? <a
-                href='https://docs.google.com/forms/d/e/1FAIpQLSfkdjLp_paAnx70uw6F7xvGzCmLW5_FWesU4s0NOvRsALpeIQ/viewform?usp=sf_link'
-                target='_blank'
-                rel='noopener noreferrer'
-                >
-                     Contact us here
-                </a>
-            </h5>
         </div>
     )
 }

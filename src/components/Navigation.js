@@ -19,16 +19,16 @@ const Navigation = () => {
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className='mr-auto'>
                     <Nav.Item>
-                        <Nav.Link href='#home'>Home</Nav.Link>
+                        <Nav.Link href='#home' className='text-white'>Home</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link href='#products'>Products</Nav.Link>
+                        <Nav.Link href='#products' className='text-white'>Products</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link href='#team'>Team</Nav.Link>
+                        <Nav.Link href='#team' className='text-white'>Team</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link href='#order'>Order</Nav.Link>
+                        <Nav.Link href='#order' className='text-white'>Order</Nav.Link>
                     </Nav.Item>
                 </Nav>
             </Navbar.Collapse>
