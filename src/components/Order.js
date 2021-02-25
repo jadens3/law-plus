@@ -8,8 +8,9 @@ const Order = () => {
     return (
         <div className='m-5 pt-5' id='order'>
             <Container fluid>
-            <h2 className='text-secondary mb-4'>Order</h2>
+            <h2 className='text-secondary mb-5'>Order</h2>
                 <iframe
+                    className='m-auto'
                     title='preorder'
                     src="https://docs.google.com/forms/d/e/1FAIpQLScOfyM0ssCYDI-njalU0_zm6UFQwnY9FX4-waMw1xKsSLfuaw/viewform?embedded=true"
                     width="640"

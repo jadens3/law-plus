@@ -51,15 +51,6 @@ const Team = () => {
                         <h5 className='text-secondary mt-2 mb-4'>Jaden Stetler - CTO</h5>  
                     </Col>
                 </Row>
-                <h5 className='mb-5 text-secondary'>
-                    Questions, concerns, or feedback? <a
-                    href='https://docs.google.com/forms/d/e/1FAIpQLSfkdjLp_paAnx70uw6F7xvGzCmLW5_FWesU4s0NOvRsALpeIQ/viewform?usp=sf_link'
-                    target='_blank'
-                    rel='noopener noreferrer'
-                    >
-                        Contact us here
-                    </a>
-                </h5>
             </Container>
         </div>
     )
