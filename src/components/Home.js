@@ -24,7 +24,7 @@ const Home = () => {
                                 target='_blank'
                                 rel='noopener noreferrer'
                                 >
-                                    Contact us!
+                                    Contact Us
                                 </Button>
                             </div>
                         </div>

@@ -1,9 +1,5 @@
-.headshot-container {
-    width: 240px;
-    height: 300px;
-    overflow: hidden;
-}
-
-.headshot-container img {
+.headshot {
     width: 100%;
+    height: 500px;
+    object-fit: cover;
 }

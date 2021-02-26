@@ -21,7 +21,7 @@ const Products = () => {
                         className='d-block w-100'
                     />
                     </Col>
-                    <Col className='mr-5 mb-5'>
+                    <Col className='mb-5'>
                         <div className='row h-100'>
                             <div className='col-sm-12 my-auto'>
                                 <h2 className='text-secondary mb-3'>Flashcards</h2>
@@ -57,7 +57,7 @@ const Products = () => {
                             </div>
                         </div>
                     </Col>
-                    <Col lg className='mr-5 mb-5'>
+                    <Col lg className='mb-5'>
                         <img
                             src='https://i.ibb.co/ByMZ68t/book.jpg'
                             alt='book'
