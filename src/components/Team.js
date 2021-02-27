@@ -18,8 +18,11 @@ const Team = () => {
                                 src='https://i.ibb.co/2dBCQ9k/danica-headshot.jpg'
                                 alt='danica-headshot'
                                 className='headshot' />
-                            <Card.Body>
-                                <Card.Title className='text-secondary text-center'>Danica Gheorghiu - CMO</Card.Title>
+                            <Card.Body className='text-center'>
+                                <Card.Title className='text-secondary'>Danica Gheorghiu - CMO</Card.Title>
+                                <Card.Text>
+                                    Danica is an Economics major at the University of Washington and has 6 years of experience at a Silicon Valley based fintech startup.
+                                </Card.Text>
                             </Card.Body>
                         </Card>
                         <Card>
@@ -28,8 +31,11 @@ const Team = () => {
                                 alt='flower-headshot'
                                 className='headshot'
                             />
-                            <Card.Body>
-                                <Card.Title className='text-secondary text-center'>Flower Hua - CEO</Card.Title>
+                            <Card.Body className='text-center'>
+                                <Card.Title className='text-secondary'>Flower Hua - CEO</Card.Title>
+                                <Card.Text>
+                                    Flower is a Law, Societies, and Justice major at the University of Washington, and a research Assistant at Shanze Partners PLLC.
+                                </Card.Text>
                             </Card.Body>
                         </Card>
                         <Card>
@@ -38,8 +44,11 @@ const Team = () => {
                                 alt='sage-headshot'
                                 className='headshot'
                             />
-                            <Card.Body>
-                                <Card.Title className='text-secondary text-center'>Sage Quiggle - CFO</Card.Title>
+                            <Card.Body className='text-center'>
+                                <Card.Title className='text-secondary'>Sage Quiggle - CFO</Card.Title>
+                                <Card.Text>
+                                    Sage is a Political Science major at the University of Washington and specializes as the head writer of LAW+’s youth book series, Lawyer Sawyer.
+                                </Card.Text>
                             </Card.Body>
                         </Card>
                         <Card>
@@ -48,8 +57,11 @@ const Team = () => {
                                 alt='jaden-headshot'
                                 className='headshot'
                             />
-                            <Card.Body>
-                                <Card.Title className='text-secondary text-center'>Jaden Stetler - CTO</Card.Title>
+                            <Card.Body className='text-center'>
+                                <Card.Title className='text-secondary'>Jaden Stetler - CTO</Card.Title>
+                                <Card.Text>
+                                    Jaden is a Computer Science major at the University of Washington and has experience in software and web development.
+                                </Card.Text>
                             </Card.Body>
                         </Card>
                 </CardDeck>
