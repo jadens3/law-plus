@@ -34,7 +34,7 @@ const Team = () => {
                             <Card.Body className='text-center'>
                                 <Card.Title className='text-secondary'>Flower Hua - CEO</Card.Title>
                                 <Card.Text>
-                                    Flower is a Law, Societies, and Justice major at the University of Washington, and a research Assistant at Shanze Partners PLLC.
+                                    Flower is a Law, Societies, and Justice major at the University of Washington and a research Assistant at Shanze Partners PLLC.
                                 </Card.Text>
                             </Card.Body>
                         </Card>
