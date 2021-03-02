@@ -2,6 +2,7 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import CardDeck from 'react-bootstrap/CardDeck';
 import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
 import './Team.css';
 
 /**
@@ -65,6 +66,9 @@ const Team = () => {
                             </Card.Body>
                         </Card>
                 </CardDeck>
+                <h4 className='text-secondary mt-5'>
+                        Questions, comments, or concerns? Contact us at <a href='mailto: contact@lawplus.us'>contact@lawplus.us</a>
+                </h4>
             </Container>
         </div>
     )

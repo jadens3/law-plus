@@ -22,9 +22,7 @@ const Footer = () => {
                     <Instagram className='text-white m-3' size={40}/>
                 </a>
                 <a
-                href='https://docs.google.com/forms/d/e/1FAIpQLSfkdjLp_paAnx70uw6F7xvGzCmLW5_FWesU4s0NOvRsALpeIQ/viewform?usp=sf_link'
-                target='_blank'
-                rel='noopener noreferrer'
+                href='mailto: contact@lawplus.us'
                 >
                     <Envelope className='text-white m-3' size={45}/>
                 </a>

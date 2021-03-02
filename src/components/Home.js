@@ -20,11 +20,11 @@ const Home = () => {
                                 <p className='mb-4'>The law is a powerful tool, but it can be confusing or inaccessible. Our mission is to improve awareness about legal rights and how to exercise them.</p>
                                 <Button
                                 className='bg-primary'
-                                href='https://docs.google.com/forms/d/e/1FAIpQLSfkdjLp_paAnx70uw6F7xvGzCmLW5_FWesU4s0NOvRsALpeIQ/viewform?usp=sf_link'
+                                href='http://eepurl.com/hrT_G5'
                                 target='_blank'
                                 rel='noopener noreferrer'
                                 >
-                                    Contact Us
+                                    Join Our Mailing List
                                 </Button>
                             </div>
                         </div>
