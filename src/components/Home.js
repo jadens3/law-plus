@@ -14,7 +14,7 @@ const Home = () => {
             <Container fluid className='pb-5'>
                 <Row>
                     <Col className='pb-5'>
-                        <div className='row h-100 mr-5'>
+                        <div className='row h-100'>
                             <div className='col-sm-12 m-auto'>
                                 <h2 className='text-secondary mb-3'>Legal Rights Educational Tools</h2>
                                 <p className='mb-4'>The law is a powerful tool, but it can be confusing or inaccessible. Our mission is to improve awareness about legal rights and how to exercise them.</p>
