@@ -1,31 +1,23 @@
 import './App.scss';
 import Navigation from './components/Navigation.js';
-import Home from './components/Home.js';
-import Products from './components/Products.js';
-import Team from './components/Team.js';
-import Order from './components/Order.js';
+import HomePage from './components/HomePage.js';
+import TeamPage from './components/TeamPage.js';
 import Footer from './components/Footer.js';
-import { BrowserRouter } from 'react-router-dom';
+import UnderConstruction from './components/UnderConstruction';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 
-/*
-TODO:
-Change Profile Picture
-Add Bios
-
-Add Product Pictures
-Add Amazon link
-Change contact form
-*/
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Navigation/>
-      <Home/>
-      <Products/>
-      <Team/>
-      <Order/>
-      <Footer/>
-    </BrowserRouter>
+      <Switch>
+        <Route path='/' exact><HomePage /></Route>
+        <Route path='/flashcards'><UnderConstruction/></Route>
+        <Route path='/book'><UnderConstruction/></Route>
+        <Route path='/team'><TeamPage /></Route>
+      </Switch>
+      <Footer />
+    </HashRouter>
   );
 }
 

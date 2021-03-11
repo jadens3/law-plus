@@ -7,11 +7,11 @@ import './Team.css';
 /**
  * @returns {React.Component} represents the team section
  */
-const Team = () => {
+const TeamPage = () => {
     return (
         <div id='team' className='m-5'>
             <Container fluid>
-            <h2 className='text-secondary mb-5'>Team</h2>
+            <h2 className='text-secondary mb-5'>Meet the Team</h2>
                 <CardDeck>
                         <Card>
                             <Card.Img
@@ -73,4 +73,4 @@ const Team = () => {
     )
 }
 
-export default Team;
+export default TeamPage;

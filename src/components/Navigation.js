@@ -10,7 +10,7 @@ import './Navigation.css';
 const Navigation = () => {
     return (
         <Navbar expand='lg' className='bg-primary mb-5' variant='dark'>
-            <Navbar.Brand href='#home'>
+            <Navbar.Brand href='/'>
             <div className='logo-container'>
                     <img src="https://i.ibb.co/wNtwVV4/logo.png" alt="logo" border="0"/>
             </div>
@@ -19,16 +19,16 @@ const Navigation = () => {
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className='mr-auto'>
                     <Nav.Item>
-                        <Nav.Link href='#home' className='text-white'>Home</Nav.Link>
+                        <Nav.Link href='#/' className='text-white'>Home</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link href='#products' className='text-white'>Products</Nav.Link>
+                        <Nav.Link href='#/flashcards' className='text-white'>Flashcards</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link href='#team' className='text-white'>Team</Nav.Link>
+                        <Nav.Link href='#/book' className='text-white'>Book</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link href='#order' className='text-white'>Order</Nav.Link>
+                        <Nav.Link href='#/team' className='text-white'>Team</Nav.Link>
                     </Nav.Item>
                 </Nav>
             </Navbar.Collapse>
