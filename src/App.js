@@ -2,8 +2,9 @@ import './App.scss';
 import Navigation from './components/Navigation.js';
 import HomePage from './components/HomePage.js';
 import TeamPage from './components/TeamPage.js';
+import FlashcardsPage from './components/FlashcardsPage.js';
+import BookPage from './components/BookPage.js';
 import Footer from './components/Footer.js';
-import UnderConstruction from './components/UnderConstruction';
 import { HashRouter, Route, Switch } from 'react-router-dom';
 
 function App() {
@@ -12,8 +13,8 @@ function App() {
       <Navigation/>
       <Switch>
         <Route path='/' exact><HomePage /></Route>
-        <Route path='/flashcards'><UnderConstruction/></Route>
-        <Route path='/book'><UnderConstruction/></Route>
+        <Route path='/flashcards'><FlashcardsPage/></Route>
+        <Route path='/book'><BookPage/></Route>
         <Route path='/team'><TeamPage /></Route>
       </Switch>
       <Footer />
