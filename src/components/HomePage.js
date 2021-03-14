@@ -16,8 +16,8 @@ const HomePage = () => {
                     <Col className='pb-5'>
                         <div className='row h-100'>
                             <div className='col-sm-12 m-auto'>
-                                <h2 className='text-secondary mb-3'>Legal Rights Educational Tools</h2>
-                                <p className='mb-4'>The law is a powerful tool, but it can be confusing or inaccessible. Our mission is to improve awareness about legal rights and how to exercise them.</p>
+                                <h2 className='text-secondary mb-3'>How Well Do You Know Your Legal Rights?</h2>
+                                <p className='mb-4'>The law is a powerful tool, but it can be confusing or inaccessible. We're here to help. Our mission is to improve awareness about legal rights and how to exercise them through our youth book and flashcards.</p>
                                 <Button
                                 className='bg-primary'
                                 href='http://eepurl.com/hrT_G5'
