@@ -13,7 +13,7 @@ const BookPage = () => {
             <Row className='pt-5'>
                 <Col lg className='pb-5 m-auto'>
                     <img
-                        src='https://i.ibb.co/ByMZ68t/book.jpg'
+                        src='https://i.ibb.co/cbN3qV0/Front-Cover.png'
                         alt='book'
                         className='d-block w-75 mx-auto'
                     />
@@ -22,7 +22,7 @@ const BookPage = () => {
                     <div className='row h-100'>
                         <div className='col-sm-12 my-auto'>
                             <h2 className='text-secondary mb-3'>Lawyer Sawyer Goes to the Supreme Court</h2>
-                            <p className='mb-4'>Our illustrated youth book introduces young readers to the Supreme Court and Bill of Rights. The book’s main character and namesake, Lawyer Sawyer, breaks down the history and importance of legal rights in easy-to-understand language.</p>
+                            <p className='mb-4'>Our illustrated youth book introduces young readers to the Supreme Court and Bill of Rights. The book’s main character and namesake, Lawyer Sawyer, breaks down the importance of legal rights in easy-to-understand language.</p>
                             <Button
                             className='bg-primary'
                             href='https://docs.google.com/forms/d/e/1FAIpQLScOfyM0ssCYDI-njalU0_zm6UFQwnY9FX4-waMw1xKsSLfuaw/viewform?usp=sf_link'

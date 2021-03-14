@@ -11,7 +11,7 @@ import Button from 'react-bootstrap/Button';
 const HomePage = () => {
     return (
         <div className='m-5' id='home'>
-            <Container fluid className='pb-5'>
+            <Container fluid>
                 <Row>
                     <Col className='pb-5'>
                         <div className='row h-100'>
