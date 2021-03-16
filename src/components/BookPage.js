@@ -22,14 +22,14 @@ const BookPage = () => {
                     <div className='row h-100'>
                         <div className='col-sm-12 my-auto'>
                             <h2 className='text-secondary mb-3'>Lawyer Sawyer Goes to the Supreme Court</h2>
-                            <p className='mb-4'>Our illustrated youth book introduces young readers to the Supreme Court and Bill of Rights. The book’s main character and namesake, Lawyer Sawyer, breaks down the importance of legal rights in easy-to-understand language.</p>
+                            <p className='mb-4'>Our illustrated youth book introduces young readers to the Supreme Court and Bill of Rights. The book’s main character and namesake, Lawyer Sawyer, breaks down the importance of legal rights in easy-to-understand language. Lawyer Sawyer Goes to the Supreme Court is available to purchase in both paperback and kindle formats on Amazon</p>
                             <Button
                             className='bg-primary'
-                            href='https://docs.google.com/forms/d/e/1FAIpQLScOfyM0ssCYDI-njalU0_zm6UFQwnY9FX4-waMw1xKsSLfuaw/viewform?usp=sf_link'
+                            href='https://www.amazon.com/Lawyer-Sawyer-goes-Supreme-Court/dp/B08WJW8VQH'
                             target='_blank'
                             rel='noopener noreferrer'
                             >
-                                Preorder Now
+                                Purchase on Amazon
                             </Button>
                         </div>
                     </div>
