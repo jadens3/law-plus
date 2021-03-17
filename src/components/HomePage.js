@@ -4,15 +4,15 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Carousel from 'react-bootstrap/Carousel';
 import Button from 'react-bootstrap/Button';
-import './HomePage.css';
+import './Page.css';
 
 /**
  * @returns {React.Component} represents the home section
  */
 const HomePage = () => {
     return (
-        <div className='m-5' id='home'>
-            <Container fluid className='landing'>
+        <div className='m-5'>
+            <Container fluid className='body-container'>
                 <Row>
                     <Col className='pb-5'>
                         <div className='row h-100 ml-2'>

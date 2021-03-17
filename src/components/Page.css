@@ -1,4 +1,4 @@
-.landing {
+.body-container {
     background-color: lightgrey;
     border-radius: 25px;
 }
@@ -9,10 +9,17 @@
     height: 60vh;
     min-width: 200px;
     min-height: 200px;
+    border-radius: 25px;
+    overflow: hidden;
 }
 
 .carousel-image {
     width: 100%;
     margin: auto;
     overflow: hidden;
+    border-radius: 25px;
+}
+
+.image {
+    border-radius: 25px;
 }
