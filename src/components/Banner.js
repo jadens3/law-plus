@@ -8,12 +8,12 @@ import './Banner.css'
     return(
         <h5 className='banner pl-5 pt-3 pb-3'>
             <a
-            href='https://docs.google.com/forms/d/e/1FAIpQLScOfyM0ssCYDI-njalU0_zm6UFQwnY9FX4-waMw1xKsSLfuaw/viewform?usp=sf_link'
+            href='https://www.etsy.com/shop/LawPlus'
             target='_blank'
             rel='noopener noreferrer'
             className='text-white'
             >
-                Click Here To Preorder!
+                Click Here To Order Our Flashcards on Etsy!
             </a>
         </h5>
     )

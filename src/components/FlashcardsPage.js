@@ -36,14 +36,14 @@ const FlashcardsPage = () => {
                         <div className='row h-100 mr-5'>
                             <div className='col-sm-12 my-auto'>
                                 <h2 className='text-secondary mb-3'>Flashcards</h2>
-                                <p className='mb-4'>Our current flashcard set contains 20 cards with information related to traffic stops. The deck includes illustrations and descriptions of how to respond when pulled over, what legal rights and protections you have, and a list commonly broken laws that can lead to traffic stops.</p>
+                                <p className='mb-4'>Our current flashcard set contains 16 cards with information related to traffic stops. The deck includes illustrations and descriptions of how to respond when pulled over, what legal rights and protections you have, and a list commonly broken laws that can lead to traffic stops.</p>
                                 <Button
                                 className='bg-primary'
-                                href='https://docs.google.com/forms/d/e/1FAIpQLScOfyM0ssCYDI-njalU0_zm6UFQwnY9FX4-waMw1xKsSLfuaw/viewform?usp=sf_link'
+                                href='https://www.etsy.com/shop/LawPlus'
                                 target='_blank'
                                 rel='noopener noreferrer'
                                 >
-                                    Preorder Now
+                                    Purchase on Etsy
                                 </Button>
                             </div>
                         </div>
