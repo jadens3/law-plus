@@ -1,4 +1,5 @@
 import React from 'react';
+import "./Footer.css";
 import { Instagram, Envelope, Facebook } from 'react-bootstrap-icons';
 
 /**
@@ -6,27 +7,34 @@ import { Instagram, Envelope, Facebook } from 'react-bootstrap-icons';
  */
 const Footer = () => {
     return (
-            <div className='bg-primary w-100 m-0 text-center footer'>
+            <footer className="bg-primary">
+                <a
+                href='http://eepurl.com/hrT_G5'
+                target='_blank'
+                rel='noopener noreferrer'
+                >
+                    Mailing List
+                </a>
                 <a
                 href='https://www.facebook.com/Law-107226611423427/?hc_ref=ARRP7EgT31at5aUFZneV27w-zl2_mE2Sg8dT3oLwNPUnrpQn76BGa_twZylvbCrV0zo&fref=nf&__tn__=kC-R'
                 target='_blank'
                 rel='noopener noreferrer'
                 >
-                    <Facebook className='text-white m-3' size={40}/>
+                    Facebook
                 </a>
                 <a
                 href='https://www.instagram.com/law.is.powerful/'
                 target='_blank'
                 rel='noopener noreferrer'
                 >
-                    <Instagram className='text-white m-3' size={40}/>
+                    Instagram
                 </a>
                 <a
                 href='mailto: contact@lawplus.us'
                 >
-                    <Envelope className='text-white m-3' size={45}/>
+                    Contact
                 </a>
-            </div>
+            </footer>
     )
 }
 
