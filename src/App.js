@@ -11,12 +11,14 @@ function App() {
   return (
     <HashRouter>
       <Navigation/>
-      <Switch>
-        <Route path='/' exact><HomePage /></Route>
-        <Route path='/flashcards'><FlashcardsPage/></Route>
-        <Route path='/book'><BookPage/></Route>
-        <Route path='/team'><TeamPage /></Route>
-      </Switch>
+      <main>
+        <Switch>
+          <Route path='/' exact><HomePage /></Route>
+          <Route path='/flashcards'><FlashcardsPage/></Route>
+          <Route path='/book'><BookPage/></Route>
+          <Route path='/team'><TeamPage /></Route>
+        </Switch>
+      </main>
       <Footer />
     </HashRouter>
   );

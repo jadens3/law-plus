@@ -1,73 +1,40 @@
 import React from 'react';
-import Container from 'react-bootstrap/Container';
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
-import Carousel from 'react-bootstrap/Carousel';
 import Button from 'react-bootstrap/Button';
-import './Page.css';
+import './HomePage.css';
 
 /**
- * @returns {React.Component} represents the home section
+ * @returns {React.Component} represents the home page
  */
 const HomePage = () => {
     return (
-        <div className='m-5'>
-            <Container fluid className='body-container'>
-                <Row>
-                    <Col className='pb-5'>
-                        <div className='row h-100 ml-2'>
-                            <div className='col-sm-12 m-auto'>
-                                <h2 className='text-secondary mb-3 mt-3'>How Well Do You Know Your Legal Rights?</h2>
-                                <p className='mb-4'>The law is a powerful tool, but it can be confusing or inaccessible. We're here to help. Our mission is to improve awareness about legal rights and how to exercise them through our youth book and flashcards.</p>
-                                <Button
-                                className='bg-primary'
-                                href='http://eepurl.com/hrT_G5'
-                                target='_blank'
-                                rel='noopener noreferrer'
-                                >
-                                    Join Our Mailing List
-                                </Button>
-                            </div>
-                        </div>
-                    </Col>
-                    <Col lg className='pb-5'>
-                        <Carousel className='pt-5' controls={false}>
-                            <Carousel.Item>
-                                <div className='carousel-image-container'>
-                                    <img
-                                    src='https://i.ibb.co/cb2vd5L/preordernow.jpg'
-                                    alt='preorder now'
-                                    className='d-block carousel-image'
-                                    />
-                                </div>
-                            </Carousel.Item>
-                            <Carousel.Item>
-                                <div className='carousel-image-container'>
-                                    <a href='#/flashcards'>
-                                        <img
-                                        src='https://i.ibb.co/MPqv6N8/Flashcards.png'
-                                        alt='preorder now'
-                                        className='d-block carousel-image'
-                                        />
-                                    </a>
-                                </div>
-                            </Carousel.Item>
-                            <Carousel.Item>
-                                <div className='carousel-image-container'>
-                                    <a href='#/book'>
-                                        <img
-                                        src='https://i.ibb.co/5WjgWPB/SeeBooks.png'
-                                        alt='preorder now'
-                                        className='d-block carousel-image'
-                                        />
-                                    </a>
-                                </div>
-                            </Carousel.Item>
-                        </Carousel>
-                    </Col>
-                </Row>
-            </Container>
-        </div>
+        <>
+            <section className="bg-primary">
+                <img
+                src="https://i.ibb.co/8sVMJPk/homecards.png"
+                alt="Law Plus example flashcards"
+                />
+                <h2 className='text-white'>Legal Rights Flashcards</h2>
+                <Button
+                variant="outline-light"
+                href="#/flashcards"
+                >
+                    Learn More
+                </Button>
+            </section>
+            <section>
+                <img
+                src="https://i.ibb.co/gVnQG2Y/homebook.png"
+                alt="Law Plus Lawyer Sawyer youth book cover"
+                />
+                <h2 className='text-primary'>Educational Youth Book</h2>
+                <Button
+                variant="outline-primary"
+                href="#/book"
+                >
+                    Learn More
+                </Button>
+            </section>
+        </>
     )
 }
 
