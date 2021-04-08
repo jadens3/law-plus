@@ -1,7 +1,24 @@
-.logo-container {
-    width: 100px;
+header {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
-.logo-container img {
-    width: 100%;
+header h1 {
+    margin-top: 1%;
+    margin-bottom: 0;
 }
+
+.nav-link {
+    font-size: 1.25rem;
+}
+
+nav, .navbar-collapse {
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+ div.navbar-nav {
+    width: 40%;
+    justify-content: space-evenly;
+ }
