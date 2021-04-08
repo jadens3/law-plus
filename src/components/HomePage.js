@@ -13,6 +13,7 @@ const HomePage = () => {
                 src="https://i.ibb.co/8sVMJPk/homecards.png"
                 alt="Law Plus example flashcards"
                 />
+                <h3 className='text-white'><em>A new learning tool</em></h3>
                 <h2 className='text-white'>Legal Rights Flashcards</h2>
                 <Button
                 variant="outline-light"
@@ -26,6 +27,7 @@ const HomePage = () => {
                 src="https://i.ibb.co/gVnQG2Y/homebook.png"
                 alt="Law Plus Lawyer Sawyer youth book cover"
                 />
+                <h3 className='text-primary'><em>A new story</em></h3>
                 <h2 className='text-primary'>Educational Youth Book</h2>
                 <Button
                 variant="outline-primary"

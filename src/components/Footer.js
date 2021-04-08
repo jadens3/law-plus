@@ -1,6 +1,5 @@
 import React from 'react';
 import "./Footer.css";
-import { Instagram, Envelope, Facebook } from 'react-bootstrap-icons';
 
 /**
  * @returns {React.Component} represents the Footer section

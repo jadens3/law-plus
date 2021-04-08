@@ -10,8 +10,9 @@ hr {
     border-radius: 5px;
 }
 
-header h1 {
+h1 {
     margin: 1%;
+    font-size: 3rem;
 }
 
 .nav-link {

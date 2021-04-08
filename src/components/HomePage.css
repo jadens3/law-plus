@@ -11,10 +11,11 @@ img {
   min-width: 200px;
 }
 
-h2 {
+h2, h3 {
   width: 100%;
   display: flex;
   justify-content: center;
+  margin: 1%;
 }
 
 .btn {

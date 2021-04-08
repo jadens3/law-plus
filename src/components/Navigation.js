@@ -9,7 +9,7 @@ import './Navigation.css';
 const Navigation = () => {
     return (
         <header className='bg-primary text-white'>
-            <h1>Law+</h1>
+            <h1>LAW+</h1>
             <Navbar expand='lg' variant='dark'>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
