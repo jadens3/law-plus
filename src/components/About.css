@@ -1,0 +1,52 @@
+blockquote {
+    font-size: 1.5rem;
+}
+
+.headshot {
+    width: 100%;
+    height: 50vh;
+    min-height: 300px;
+    object-fit: cover;
+}
+
+#mission {
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+
+#about section {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+}
+
+#about h2 {
+    margin-bottom: 3%;
+}
+
+#team {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    color: white;
+    margin-left: -2%;
+    margin-right: -2%;
+}
+
+.member {
+    width: 20%;
+    text-align: center;
+    min-width: 200px;
+}
+
+#team .img-container {
+    width: 100%;
+    height: 50%;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 3%;
+}
+
+#team img {
+    width: 100%;
+}

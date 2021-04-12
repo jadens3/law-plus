@@ -24,7 +24,7 @@ const Navigation = () => {
                             <Nav.Link href='#/book' className='text-white'>Book</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link href='#/team' className='text-white'>About</Nav.Link>
+                            <Nav.Link href='#/about' className='text-white'>About</Nav.Link>
                         </Nav.Item>
                     </Nav>
                 </Navbar.Collapse>

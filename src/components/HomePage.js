@@ -7,7 +7,7 @@ import './HomePage.css';
  */
 const HomePage = () => {
     return (
-        <>
+        <div id="home">
             <section className="bg-primary">
                 <img
                 src="https://i.ibb.co/8sVMJPk/homecards.png"
@@ -36,7 +36,7 @@ const HomePage = () => {
                     Learn More
                 </Button>
             </section>
-        </>
+        </div>
     )
 }
 

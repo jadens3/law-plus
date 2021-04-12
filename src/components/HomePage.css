@@ -1,4 +1,4 @@
-section {
+#home section {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -6,19 +6,19 @@ section {
   margin-bottom: 3%;
 }
 
-img {
+#home img {
   width: 50%;
   height: 100%;
   min-width: 200px;
 }
 
-h2, h3 {
+#home h2, #home h3 {
   width: 100%;
   display: flex;
   justify-content: center;
   margin: 1%;
 }
 
-.btn {
+#home .btn {
   margin: 1%;
 }

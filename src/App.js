@@ -1,7 +1,7 @@
 import './App.scss';
 import Navigation from './components/Navigation.js';
 import HomePage from './components/HomePage.js';
-import TeamPage from './components/TeamPage.js';
+import AboutPage from './components/AboutPage.js';
 import FlashcardsPage from './components/FlashcardsPage.js';
 import BookPage from './components/BookPage.js';
 import Footer from './components/Footer.js';
@@ -13,10 +13,10 @@ function App() {
       <Navigation/>
       <main>
         <Switch>
-          <Route path='/' exact><HomePage /></Route>
+          <Route path='/' exact><HomePage id="home"/></Route>
           <Route path='/flashcards'><FlashcardsPage/></Route>
           <Route path='/book'><BookPage/></Route>
-          <Route path='/team'><TeamPage /></Route>
+          <Route path='/about'><AboutPage /></Route>
         </Switch>
       </main>
       <Footer />
