@@ -1,0 +1,36 @@
+#book {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-top: 3%;
+  padding-bottom: 8%;
+}
+
+#book h2 {
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+
+#book > img {
+  display: block;
+  width: 40%;
+  min-width: 200px;
+}
+
+#book article > img {
+  display: block;
+  width: 100%;
+  min-width: 200px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+#book article {
+  width: 50%;
+}
+
+#book p {
+  font-size: 1.25rem;
+}
