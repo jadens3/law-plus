@@ -27,7 +27,7 @@ const BookPage = () => {
                                 <p className='mb-4'>Our illustrated youth book introduces young readers to the Supreme Court and Bill of Rights. The book’s main character and namesake, Lawyer Sawyer, breaks down the importance of legal rights in easy-to-understand language. Lawyer Sawyer Goes to the Supreme Court is available to purchase in both paperback and kindle formats on Amazon</p>
                                 <Button
                                 className='bg-primary'
-                                href='https://www.amazon.com/Lawyer-Sawyer-goes-Supreme-Court/dp/B08WJW8VQH'
+                                href='https://www.amazon.com/dp/B092CLB6YX/ref=pd_ybh_a_1?_encoding=UTF8&psc=1&refRID=EMKATWWF4FFJTYAH1TXB'
                                 target='_blank'
                                 rel='noopener noreferrer'
                                 >
