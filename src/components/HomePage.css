@@ -8,8 +8,8 @@
 
 #home img {
   width: 50%;
-  height: 100%;
   min-width: 200px;
+  align-self: center;
 }
 
 #home h2, #home h3 {
