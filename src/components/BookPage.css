@@ -16,14 +16,14 @@
 #book > img {
   display: block;
   width: 42%;
-  min-width: 200px;
+  min-width: 300px;
   align-self: center;
 }
 
 #book article > img {
   display: block;
   width: 100%;
-  min-width: 200px;
+  min-width: 300px;
   margin-top: 5%;
   margin-bottom: 5%;
 }

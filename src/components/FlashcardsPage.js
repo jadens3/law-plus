@@ -1,55 +1,96 @@
 import React from 'react';
-import Container from 'react-bootstrap/Container';
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
-import Carousel from 'react-bootstrap/Carousel';
 import Button from 'react-bootstrap/Button';
-import './Page.css'
+import './FlashcardsPage.css'
 
 /**
  * @returns {React.Component} represents the flashcards page
  */
 const FlashcardsPage = () => {
     return (
-        <div className='m-5'>
-            <Container fluid className='body-container'>
-                <Row>
-                    <Col lg className='pb-5 m-auto'>
-                        <Carousel className='pt-5' controls={false}>
-                            <Carousel.Item>
-                                <img
-                                src='https://i.ibb.co/ysvsWn8/flashcard.jpg'
-                                alt='flashcard back'
-                                className='d-block mx-auto image w-50'
-                                />
-                            </Carousel.Item>
-                            <Carousel.Item>
-                                <img
-                                src='https://i.ibb.co/MGML8mM/Flashcard-Back.png'
-                                alt='flashcard back'
-                                className='d-block mx-auto image w-50'
-                                />
-                            </Carousel.Item>
-                        </Carousel>
-                    </Col>
-                    <Col className='mb-5'>
-                        <div className='row h-100 mr-5'>
-                            <div className='col-sm-12 my-auto'>
-                                <h2 className='text-secondary mb-3'>Flashcards</h2>
-                                <p className='mb-4'>Our current flashcard set contains 16 cards with information related to traffic stops. The deck includes illustrations and descriptions of how to respond when pulled over, what legal rights and protections you have, and a list commonly broken laws that can lead to traffic stops.</p>
-                                <Button
-                                className='bg-primary'
-                                href='https://www.etsy.com/shop/LawPlus'
-                                target='_blank'
-                                rel='noopener noreferrer'
-                                >
-                                    Purchase on Etsy
-                                </Button>
-                            </div>
-                        </div>
-                    </Col>
-                </Row>
-            </Container>
+        <div id="cards">
+            <section className="bg-primary text-white">
+                <img
+                src="https://i.ibb.co/8sVMJPk/homecards.png"
+                alt="Flashcard deck"
+                />
+                <div>
+                    <h2>Law+ Flashcards</h2>
+                    <Button
+                    variant="outline-light"
+                    href='https://www.etsy.com/shop/LawPlus'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    >
+                        Buy now on Etsy
+                    </Button>
+                    <p>
+                        This flashcard set includes information about what to do when you get
+                        pulled over, your legal rights during a traffic stop, and a list of
+                        commonly-broken laws.
+                    </p>
+                    <p>
+                        Each deck comes shrink-wrapped and is packaged with a ring to keep things
+                        together. A single deck contains 16 cards with helpful descriptions and
+                        colorful illustrations.
+                    </p>
+                </div>
+            </section>
+            <section className="text-primary">
+                <div>
+                    <h3>What to do when pulled over</h3>
+                    <h2>A Step-by-Step Guide</h2>
+                    <Button
+                    variant="outline-primary"
+                    href='https://www.etsy.com/shop/LawPlus'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    >
+                        Buy now on Etsy
+                    </Button>
+                </div>
+                <img
+                src="https://i.ibb.co/W2ZWc40/cardsguide.png"
+                alt="Cards describing what to do when pulled over"
+                />
+            </section>
+            <section className="bg-primary text-white">
+                <img
+                src="https://i.ibb.co/WWFt7zb/cardsrights.png"
+                alt="Cards describing legal rights when pulled over"
+                id="cardsrights"
+                />
+                <div>
+                    <h3>Your rights when pulled over</h3>
+                    <h2>With Illustrated Examples</h2>
+                    <Button
+                    variant="outline-light"
+                    href='https://www.etsy.com/shop/LawPlus'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    >
+                        Buy now on Etsy
+                    </Button>
+                </div>
+            </section>
+            <section className="text-primary">
+                <div>
+                    <h3>Commonly Broken Laws</h3>
+                    <h2>And Related Consequences</h2>
+                    <Button
+                    variant="outline-primary"
+                    href='https://www.etsy.com/shop/LawPlus'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    >
+                        Buy now on Etsy
+                    </Button>
+                </div>
+                <img
+                src="https://i.ibb.co/8PCfNFN/cardslaws.png"
+                alt="Cards describing commonly broken laws"
+                id="cardslaws"
+                />
+            </section>
         </div>
     )
 }
