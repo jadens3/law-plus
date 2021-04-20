@@ -8,7 +8,7 @@ import './FlashcardsPage.css'
 const FlashcardsPage = () => {
     return (
         <div id="cards">
-            <section className="bg-primary text-white">
+            <section className="bg-primary text-white" id="card-description">
                 <img
                 src="https://i.ibb.co/8sVMJPk/homecards.png"
                 alt="Flashcard deck"

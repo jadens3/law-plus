@@ -1,6 +1,6 @@
 #cards > section {
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 14%;
+  padding-right: 14%;
   padding-top: 3%;
   padding-bottom: 5%;
   display: flex;
@@ -9,8 +9,14 @@
   align-items: center;
 }
 
+#cards #card-description {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
 #cards section img {
   width: 45%;
+  min-width: 250px;
   align-self: center;
 }
 
