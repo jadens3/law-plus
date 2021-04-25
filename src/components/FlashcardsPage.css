@@ -15,14 +15,18 @@
 }
 
 #cards section img {
-  width: 45%;
+  max-width: 45%;
   min-width: 250px;
   align-self: center;
 }
 
 #cards section div {
-  max-width: 45%;
+  width: 45%;
   min-width: 300px;
+}
+
+#cards p {
+  margin-bottom: 5%;
 }
 
 #cardsrights {
@@ -35,6 +39,6 @@
 
 .btn {
   display: inline-block;
-  margin-top: 2%;
-  margin-bottom: 2%;
+  margin-top: 4%;
+  margin-bottom: 4%;
 }

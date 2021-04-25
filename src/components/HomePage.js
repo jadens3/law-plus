@@ -17,9 +17,9 @@ const HomePage = () => {
                 <h2 className='text-white'>Legal Rights Flashcards</h2>
                 <Button
                 variant="outline-light"
-                href="#/flashcards"
+                href="https://www.etsy.com/shop/LawPlus"
                 >
-                    Learn More
+                    Buy Now on Etsy
                 </Button>
             </section>
             <section>
@@ -31,9 +31,9 @@ const HomePage = () => {
                 <h2 className='text-primary'>Educational Youth Book</h2>
                 <Button
                 variant="outline-primary"
-                href="#/book"
+                href="https://www.amazon.com/dp/B092CLB6YX/ref=pd_ybh_a_1?_encoding=UTF8&psc=1&refRID=EMKATWWF4FFJTYAH1TXB"
                 >
-                    Learn More
+                    Buy Now on Amazon
                 </Button>
             </section>
         </div>

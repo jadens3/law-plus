@@ -24,9 +24,9 @@ const FlashcardsPage = () => {
                         Buy now on Etsy
                     </Button>
                     <p>
-                        This flashcard set includes information about what to do when you get
+                        This flashcard deck includes information about how you can respond when
                         pulled over, your legal rights during a traffic stop, and a list of
-                        commonly-broken laws.
+                        commonly broken laws.
                     </p>
                     <p>
                         Each deck comes shrink-wrapped and is packaged with a ring to keep things
@@ -37,16 +37,8 @@ const FlashcardsPage = () => {
             </section>
             <section className="text-primary">
                 <div>
-                    <h3>What to do when pulled over</h3>
+                    <h3>Traffic Stop Situationals</h3>
                     <h2>A Step-by-Step Guide</h2>
-                    <Button
-                    variant="outline-primary"
-                    href='https://www.etsy.com/shop/LawPlus'
-                    target='_blank'
-                    rel='noopener noreferrer'
-                    >
-                        Buy now on Etsy
-                    </Button>
                 </div>
                 <img
                 src="https://i.ibb.co/W2ZWc40/cardsguide.png"
@@ -60,30 +52,14 @@ const FlashcardsPage = () => {
                 id="cardsrights"
                 />
                 <div>
-                    <h3>Your rights when pulled over</h3>
+                    <h3>Your Rights When Pulled Over</h3>
                     <h2>With Illustrated Examples</h2>
-                    <Button
-                    variant="outline-light"
-                    href='https://www.etsy.com/shop/LawPlus'
-                    target='_blank'
-                    rel='noopener noreferrer'
-                    >
-                        Buy now on Etsy
-                    </Button>
                 </div>
             </section>
             <section className="text-primary">
                 <div>
                     <h3>Commonly Broken Laws</h3>
                     <h2>And Related Consequences</h2>
-                    <Button
-                    variant="outline-primary"
-                    href='https://www.etsy.com/shop/LawPlus'
-                    target='_blank'
-                    rel='noopener noreferrer'
-                    >
-                        Buy now on Etsy
-                    </Button>
                 </div>
                 <img
                 src="https://i.ibb.co/8PCfNFN/cardslaws.png"
