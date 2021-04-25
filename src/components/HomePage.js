@@ -18,6 +18,8 @@ const HomePage = () => {
                 <Button
                 variant="outline-light"
                 href="https://www.etsy.com/shop/LawPlus"
+                target='_blank'
+                rel='noopener noreferrer'
                 >
                     Buy Now on Etsy
                 </Button>
@@ -32,6 +34,8 @@ const HomePage = () => {
                 <Button
                 variant="outline-primary"
                 href="https://www.amazon.com/dp/B092CLB6YX/ref=pd_ybh_a_1?_encoding=UTF8&psc=1&refRID=EMKATWWF4FFJTYAH1TXB"
+                target='_blank'
+                rel='noopener noreferrer'
                 >
                     Buy Now on Amazon
                 </Button>

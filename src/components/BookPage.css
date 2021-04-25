@@ -1,4 +1,4 @@
-#book {
+#book-page {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -8,19 +8,19 @@
   padding-bottom: 8%;
 }
 
-#book h2 {
+#book-page h2 {
   margin-top: 5%;
   margin-bottom: 2%;
 }
 
-#book > img {
+#book-page > img {
   display: block;
   width: 42%;
   min-width: 300px;
   align-self: center;
 }
 
-#book article > img {
+#book-page article > img {
   display: block;
   width: 100%;
   min-width: 300px;
@@ -28,11 +28,11 @@
   margin-bottom: 5%;
 }
 
-#book article {
+#book-page article {
   width: 53%;
 }
 
-#book p {
+#book-page p {
   font-size: 1.25rem;
 }
 

@@ -7,10 +7,10 @@ import './BookPage.css';
  */
 const BookPage = () => {
     return (
-        <div id="book" className="bg-primary">
+        <div id="book-page" className="bg-primary">
             <img
-                src='https://i.ibb.co/cbN3qV0/Front-Cover.png'
-                alt='book'
+            src='https://i.ibb.co/cbN3qV0/Front-Cover.png'
+            alt='Lawyer Sawyer Goes To The Supreme Court Book Cover'
             />
             <article>
                 <h2 className="text-white">Lawyer Sawyer Youth Book</h2>
