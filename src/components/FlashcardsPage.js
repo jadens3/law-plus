@@ -14,7 +14,7 @@ const FlashcardsPage = () => {
                 alt="Flashcard deck"
                 />
                 <div>
-                    <h2>Law+ Flashcards</h2>
+                    <h2>Pulled Over Flashcard Deck</h2>
                     <Button
                     variant="outline-light"
                     href='https://www.etsy.com/shop/LawPlus'
@@ -29,7 +29,7 @@ const FlashcardsPage = () => {
                         commonly broken laws.
                     </p>
                     <p>
-                        Each deck comes shrink-wrapped and is packaged with a ring to keep things
+                        The deck comes shrink-wrapped and is packaged with a ring to keep things
                         together. A single deck contains 16 cards with helpful descriptions and
                         colorful illustrations.
                     </p>

@@ -72,8 +72,8 @@ const AboutPage = () => {
                 <h2>Our Mission</h2>
                 <blockquote>
                     Law+'s mission is to improve awareness about legal rights
-                    and how to exercise them through our youth book and flash
-                    cards.
+                    and how to exercise them through our youth book and
+                    flashcards.
                 </blockquote>
             </section>
         </div>
