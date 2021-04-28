@@ -38,7 +38,7 @@ const FlashcardsPage = () => {
             <section className="text-primary">
                 <div>
                     <h3>Traffic Stop Situationals</h3>
-                    <h2>A Step-by-Step Guide</h2>
+                    <h2>A Step-By-Step Guide</h2>
                 </div>
                 <img
                 src="https://i.ibb.co/W2ZWc40/cardsguide.png"

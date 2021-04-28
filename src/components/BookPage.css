@@ -11,19 +11,20 @@
 #book-page h2 {
   margin-top: 5%;
   margin-bottom: 2%;
+  min-width: 250px;
 }
 
 #book-page > img {
   display: block;
   width: 42%;
-  min-width: 300px;
+  min-width: 250px;
   align-self: center;
 }
 
 #book-page article > img {
   display: block;
   width: 100%;
-  min-width: 300px;
+  min-width: 250px;
   margin-top: 5%;
   margin-bottom: 5%;
 }
@@ -34,6 +35,7 @@
 
 #book-page p {
   font-size: 1.25rem;
+  min-width: 250px;
 }
 
 .btn {

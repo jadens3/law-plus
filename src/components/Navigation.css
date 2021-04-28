@@ -2,12 +2,8 @@ header {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-}
-
-hr {
-    width: 80%;
-    border: 1px solid white;
-    border-radius: 5px;
+    border-bottom: 1px solid white;
+    padding-bottom: 1%;
 }
 
 h1 {
