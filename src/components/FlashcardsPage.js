@@ -35,7 +35,7 @@ const FlashcardsPage = () => {
                     </p>
                 </div>
             </section>
-            <section className="text-primary">
+            <section className="text-primary text-center">
                 <div>
                     <h3>Traffic Stop Situationals</h3>
                     <h2>A Step-By-Step Guide</h2>
@@ -45,7 +45,7 @@ const FlashcardsPage = () => {
                 alt="Cards describing what to do when pulled over"
                 />
             </section>
-            <section className="bg-primary text-white">
+            <section className="bg-primary text-white text-center">
                 <img
                 src="https://i.ibb.co/WWFt7zb/cardsrights.png"
                 alt="Cards describing legal rights when pulled over"
@@ -56,7 +56,7 @@ const FlashcardsPage = () => {
                     <h2>With Illustrated Examples</h2>
                 </div>
             </section>
-            <section className="text-primary">
+            <section className="text-primary text-center">
                 <div>
                     <h3>Commonly Broken Laws</h3>
                     <h2>And Related Consequences</h2>
