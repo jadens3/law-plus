@@ -9,7 +9,7 @@ const BookPage = () => {
     return (
         <div id="book-page" className="bg-primary">
             <img
-            src='https://i.ibb.co/cbN3qV0/Front-Cover.png'
+            src="https://i.ibb.co/Ldwmh7D/May-Front-Cover.jpg"
             alt='Lawyer Sawyer Goes To The Supreme Court Book Cover'
             />
             <article>

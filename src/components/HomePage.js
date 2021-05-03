@@ -26,7 +26,7 @@ const HomePage = () => {
             </section>
             <section>
                 <img
-                src="https://i.ibb.co/gVnQG2Y/homebook.png"
+                src="https://i.ibb.co/Ldwmh7D/May-Front-Cover.jpg"
                 alt="Law Plus Lawyer Sawyer youth book cover"
                 />
                 <h3 className='text-primary'><em>A new story</em></h3>
