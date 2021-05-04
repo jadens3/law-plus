@@ -16,7 +16,7 @@ const BookPage = () => {
                 <h2 className="text-white">Lawyer Sawyer Youth Book</h2>
                 <Button
                 variant="outline-light"
-                href='https://www.amazon.com/dp/B092CLB6YX/ref=pd_ybh_a_1?_encoding=UTF8&psc=1&refRID=EMKATWWF4FFJTYAH1TXB'
+                href='https://www.amazon.com/Lawyer-Sawyer-goes-Supreme-Court/dp/B08WJW8VQH/ref=sr_1_fkmr0_1?crid=FLHQ65PIAZSX&dchild=1&keywords=lawyer+sawyer+goes+to+the+supreme+court&qid=1620160142&sprefix=lawyer+sawyer+goes%2Cstripbooks%2C236&sr=8-1-fkmr0'
                 target='_blank'
                 rel='noopener noreferrer'
                 >
