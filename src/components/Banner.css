@@ -1,0 +1,11 @@
+#banner {
+  padding: 1%;
+}
+
+#banner h2 {
+  font-size: 1.5rem;
+}
+
+#banner a {
+  text-decoration: underline;
+}
