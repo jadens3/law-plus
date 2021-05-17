@@ -1,6 +1,5 @@
 import './App.scss';
 import Navigation from './components/Navigation.js';
-import Banner from './components/Banner.js';
 import HomePage from './components/HomePage.js';
 import AboutPage from './components/AboutPage.js';
 import FlashcardsPage from './components/FlashcardsPage.js';
@@ -12,7 +11,6 @@ function App() {
   return (
     <HashRouter>
       <Navigation/>
-      <Banner />
       <main>
         <Switch>
           <Route path='/' exact><HomePage id="home"/></Route>
